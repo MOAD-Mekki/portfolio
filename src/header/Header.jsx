@@ -1,6 +1,15 @@
 import './Header.css'
 
 export default function Header() {
+
+    const handleEmail= () => {
+
+        window.location.href = "mailto:moadahmedabdesselammekki@gmail.com?subject="
+
+    };
+
+
+
     return (
         <div className='parent'>
             <div className='span'><p>Web Portfolio</p></div>
@@ -10,7 +19,7 @@ export default function Header() {
                 network configuration, routing, and enterprise network design. </p></div>
             <div className='div-btn'>
                 <div className='btns'>
-                <button className='btn1'>Contact me</button>
+                <button className='btn1' onClick={handleEmail}>Contact me</button>
                 <button className='btn2'>Resume</button>
                 </div>
             </div>

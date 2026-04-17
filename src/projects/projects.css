@@ -1,0 +1,84 @@
+.proj-div {
+    margin-top: 50px;
+}
+
+.proj-cont {
+    margin-top: 60px;
+}
+
+.proj-title {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.proj1-cont a {
+    padding-left: 25px;
+    font-size: medium;
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+}
+
+.proj1-cont {
+    border: rgb(219, 218, 218) solid 1px;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    
+
+}
+
+.proj1-cont p {
+    margin-left: 25px;
+    text-align: start;
+    font-size: small;
+    width: 300px;
+}
+
+.proj2-cont {
+        border: rgb(219, 218, 218) solid 1px;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: max-content;
+
+}
+
+.proj2-cont a {
+    padding-left: 25px;
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(94, 154, 244);
+}
+
+.proj2-cont p {
+    margin-left: 25px;
+    font-size: small;
+    width: 300px;
+}
+
+.proj3-cont {
+        border: rgb(219, 218, 218) solid 1px;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: max-content;
+
+}
+
+.proj3-cont h3 {
+    padding-left: 25px;
+    font-size: medium;
+    color: rgb(196, 184, 184);
+}
+
+.proj3-cont p {
+    margin-left: 25px;
+    font-size: small;
+    width: 300px;
+}
