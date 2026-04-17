@@ -1,0 +1,19 @@
+import './Header.css'
+
+export default function Header() {
+    return (
+        <div className='parent'>
+            <div className='span'><p>Web Portfolio</p></div>
+            <div className='name'><h1><span style={{color:"white"}}>Moad Ahmed</span> Mekki Abdesselam </h1></div>
+            <div className='exp'><p>Junior Datacom Engineer with HCIA-Datacom certification and 
+                hands-on experience using Huawei eNSP. Strong foundation in 
+                network configuration, routing, and enterprise network design. </p></div>
+            <div className='div-btn'>
+                <div className='btns'>
+                <button className='btn1'>Contact me</button>
+                <button className='btn2'>Resume</button>
+                </div>
+            </div>
+        </div>
+    );
+}

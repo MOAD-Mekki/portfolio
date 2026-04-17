@@ -1,0 +1,13 @@
+.nav-container {
+    width: 100%;
+    height: 70px;
+    border-bottom: solid 2px white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.title {
+    font-size: x-large;
+    padding-left: 10px;
+}

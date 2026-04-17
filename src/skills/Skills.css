@@ -1,0 +1,15 @@
+.skill-title{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.skill-cont {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    justify-self: center;
+    gap: 55px;
+    row-gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+}

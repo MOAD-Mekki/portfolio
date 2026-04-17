@@ -1,0 +1,8 @@
+.card-cont {
+
+    width: 130px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
