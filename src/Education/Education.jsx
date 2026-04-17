@@ -1,5 +1,7 @@
 import './Education.css'
 import ENSTTIC from '/public/graphics/ensttic.jpg'
+import HCIA from '/public/graphics/HCIA.png'
+
 
 export default function Education() {
     return (
@@ -15,10 +17,16 @@ export default function Education() {
                         </div>
                     </div>
                 </div>
-                <div className='certif'>
-                    <div className='certif-img'><img src="" alt="" /></div>
-                    <div className='certif-desc'></div>
-                    <div></div>
+                <div className='educ-cont'>
+                <div className='educ'>
+                    <div className='hcia-img'><img src={HCIA} alt="picture" /></div>
+                    <div className='educ-desc'>
+                        <div className='second-cont'>
+                            <div className="l-cont"><p>Huawei Certified ICT Associate - Datacom</p></div>
+                            <div className="r-cont"><p className='second-p '>2024 - Now</p></div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
