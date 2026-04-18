@@ -6,10 +6,9 @@
 .skill-cont {
     height: auto;
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
+    grid-template-columns: repeat(3 , 1fr);
     justify-self: center;
-    gap: 55px;
-    row-gap: 30px;
+    row-gap: 40px;
     align-items: center;
     margin-top: 60px;
 }

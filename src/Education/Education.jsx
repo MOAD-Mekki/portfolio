@@ -23,7 +23,7 @@ export default function Education() {
                     <div className='educ-desc'>
                         <div className='second-cont'>
                             <div className="l-cont"><p>Huawei Certified ICT Associate - Datacom</p></div>
-                            <div className="r-cont"><p className='second-p '>2024 - Now</p></div>
+                            <div className="r-cont"><p className='second-p '>2026 - 2029</p></div>
                         </div>
                     </div>
                 </div>
