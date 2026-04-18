@@ -1,4 +1,5 @@
 import './Header.css'
+import CV from '/public/CV.pdf'
 
 export default function Header() {
 
@@ -20,7 +21,8 @@ export default function Header() {
             <div className='div-btn'>
                 <div className='btns'>
                 <button className='btn1' onClick={handleEmail}>Contact me</button>
-                <button className='btn2'>Resume</button>
+                 <a href={CV}>
+                <button className='btn2' onClick={window.open(CV, '_blank')}>Resume</button></a>
                 </div>
             </div>
         </div>
