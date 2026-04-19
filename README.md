@@ -7,7 +7,7 @@ This is my personal portfolio website built using **React** and **CSS**, where I
 ## 🚀 Live Demo
 
 👉 [View Portfolio](#)
-*(Add your deployed link here — e.g., Vercel / Netlify)*
+(https://moad-mekki.github.io/portfolio/)
 
 ---
 
