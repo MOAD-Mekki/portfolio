@@ -1,16 +1,68 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using **React** and **CSS**, where I showcase my projects, skills, and background as a developer. The goal of this project is to present my work in a clean, modern, and responsive way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+👉 [View Portfolio](#)
+*(Add your deployed link here — e.g., Vercel / Netlify)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (Functional Components)
+* CSS (Flexbox / Grid)
+* JavaScript (ES6+)
+
+---
+
+## ✨ Features
+
+* Projects showcase with descriptions
+* Skills section
+* About me section
+* Contact section
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio/
+│── public/
+│── src/
+│   ├── components/
+│   ├── assets/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│── package.json
+```
+---
+
+## 📌 What I Learned
+
+* Building reusable components in React
+* Structuring a frontend project properly
+* Styling with modern CSS techniques
+* Improving UI/UX design skills
+
+---
+
+## 🤝 Contact
+
+Feel free to reach out:
+
+* Email: moadahmedabdesselammekki@gmail.com
+* LinkedIn: (https://www.linkedin.com/in/mekki-moad/)
+* GitHub: (https://github.com/MOAD-Mekki/)
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
