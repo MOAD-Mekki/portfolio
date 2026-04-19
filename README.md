@@ -6,8 +6,8 @@ This is my personal portfolio website built using **React** and **CSS**, where I
 
 ## 🚀 Live Demo
 
-👉 [View Portfolio](#)
-(https://moad-mekki.github.io/portfolio/)
+👉 View Portfolio:
+* (https://moad-mekki.github.io/portfolio/)
 
 ---
 
