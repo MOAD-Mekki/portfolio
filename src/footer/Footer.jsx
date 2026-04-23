@@ -3,25 +3,25 @@ import { IconBrandFacebook, IconBrandWhatsapp, IconBrandLinkedin, IconBrandGithu
 
 export default function Footer() {
     return (
-        <div class="footer-basic">
+        <div className="footer-basic">
         <footer>
-            <div class="social">
+            <div className="social">
                 <a href="https://github.com/MOAD-Mekki">
-                    <i class="icon ion-social-github">
+                    <i className="icon ion-social-github">
                         <IconBrandGithub />
                     </i>
                 </a>
                 <a href="https://linkedin.com/in/mekki-moad">
-                    <i class="icon ion-social-linkedin">
+                    <i className="icon ion-social-linkedin">
                         <IconBrandLinkedin />
                     </i>
                 </a>
                 <a href="https://www.facebook.com/share/14ZzfdmKXUP/">
-                    <i class="icon ion-social-facebook">
+                    <i className="icon ion-social-facebook">
                         <IconBrandFacebook />
                     </i>
                 </a></div>
-            <p class="copyright">Moad Mekki © 2026</p>
+            <p className="copyright">Moad Mekki © 2026</p>
         </footer>
     </div>
     );

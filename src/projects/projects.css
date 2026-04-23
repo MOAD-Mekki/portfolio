@@ -37,7 +37,7 @@
 }
 
 .proj2-cont {
-        border: rgb(219, 218, 218) solid 1px;
+    border: rgb(219, 218, 218) solid 1px;
     border-radius: 10px;
     width: 90%;
     margin-left: auto;
@@ -61,7 +61,7 @@
 }
 
 .proj3-cont {
-        border: rgb(219, 218, 218) solid 1px;
+    border: rgb(219, 218, 218) solid 1px;
     border-radius: 10px;
     width: 90%;
     margin-left: auto;
@@ -71,14 +71,20 @@
 
 }
 
-.proj3-cont h3 {
-    padding-left: 25px;
-    font-size: medium;
-    color: rgb(196, 184, 184);
-}
-
 .proj3-cont p {
     margin-left: 25px;
     font-size: small;
     width: 300px;
+}
+
+
+.proj3-cont a {
+    padding-left: 25px;
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(196, 184, 184);
+}
+
+.proj-div p {
+    color: rgb(221, 218, 218);
 }
