@@ -25,12 +25,11 @@
     margin-left: auto;
     margin-right: auto;
     height: max-content;
-    
-
 }
 
 .proj1-cont p {
     margin-left: 25px;
+    margin-bottom: 25px;
     text-align: start;
     font-size: small;
     width: 300px;
@@ -44,18 +43,18 @@
     margin-right: auto;
     margin-top: 30px;
     height: max-content;
-
 }
 
 .proj2-cont a {
     padding-left: 25px;
     font-size: medium;
     text-decoration: none;
-    color: rgb(94, 154, 244);
+    color: rgb(232, 21, 102);
 }
 
 .proj2-cont p {
     margin-left: 25px;
+    margin-bottom: 25px;
     font-size: small;
     width: 300px;
 }
@@ -68,11 +67,11 @@
     margin-right: auto;
     margin-top: 30px;
     height: max-content;
-
 }
 
 .proj3-cont p {
     margin-left: 25px;
+    margin-bottom: 25px;
     font-size: small;
     width: 300px;
 }
@@ -82,8 +81,34 @@
     padding-left: 25px;
     font-size: medium;
     text-decoration: none;
-    color: rgb(196, 184, 184);
+    color: rgb(144, 141, 141);
 }
+
+.proj4-cont {
+    border: rgb(219, 218, 218) solid 1px;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: max-content;
+}
+
+.proj4-cont p {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: small;
+    width: 320px;
+}
+
+
+.proj4-cont a {
+    padding-left: 25px;
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(94, 154, 244);
+}
+
 
 .proj-div p {
     color: rgb(221, 218, 218);

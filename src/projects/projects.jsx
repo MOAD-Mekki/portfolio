@@ -14,7 +14,11 @@ export default function Project() {
                     <h3><a href="https://github.com/MOAD-Mekki/Huawei-eNSP-Networking-Labs">Huawei eNSP Networking Labs :</a></h3>
                     <p>This project showcases hands-on networking labs implemented using Huawei eNSP. It is designed to demonstrate practical skills in configuring, troubleshooting, and validating enterprise network environments.</p>
                 </div>
-                                <div className='proj3-cont'>
+                <div className='proj4-cont'>
+                    <h3><a href="https://github.com/MOAD-Mekki/tracer-project">Telegram Tracer</a></h3>
+                    <p>A full-stack web application built with React and Telegram APIs that allows users to interact with Telegram data through a modern web interface.</p>
+                </div>
+                <div className='proj3-cont'>
                     <h3><a href="https://github.com/MOAD-Mekki/portfolio.git">Personal Web Portfolio :</a></h3>
                     <p>This is my personal portfolio website built using React and CSS, where I showcase my projects, skills, and background as a developer & network engineer. The goal of this project is to present my work in a clean, modern, and responsive way.</p>
                 </div>
