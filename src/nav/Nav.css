@@ -3,7 +3,6 @@
     height: 70px;
     border-bottom: solid 2px white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -29,10 +28,4 @@
     gap: 5px;
     padding-bottom: 10px;
     padding-left: 10px;
-}
-
-.mode {
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
 }

@@ -9,10 +9,9 @@ import { useState } from 'react';
 
 function App() {
 
-  const [darkMode, setDarkMode] = useState(false);
   return (
-    <div className={darkMode? "dark-mode" : "light-mode"}>
-      <Nav darkMode={darkMode} setDarkMode={setDarkMode}/>
+    <div >
+      <Nav />
       <Header />
       <Skills />
       <Project />

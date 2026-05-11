@@ -3,7 +3,7 @@ body {
     color: white;
 }
 
-.light-mode {
+/* .light-mode {
   background-color: #ffffff;
   color: rgb(0, 0, 48);
 }
@@ -15,4 +15,4 @@ body {
 
 body, .light-mode, .dark-mode {
   transition: background-color 0.3s, color 0.3s;
-}
+} */
