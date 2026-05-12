@@ -5,12 +5,14 @@ import Skills from './skills/Skills';
 import Project from './projects/projects';
 import Education from './Education/Education';
 import Footer from './footer/Footer';
-import { useState } from 'react';
+import { ThemeContext, ThemeProvider } from './theme/ThemeProvider';
+import { useContext, useState } from 'react';
 
-function App() {
+function AppContent() {
+  const { isDark, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <div >
+    <div className={isDark ? "dark" : "light"}>
       <Nav />
       <Header />
       <Skills />
@@ -18,6 +20,15 @@ function App() {
       <Education />
       <Footer />
     </div>
+  );
+}
+
+function App() {
+
+  return (
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
   );
 }
 

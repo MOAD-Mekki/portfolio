@@ -10,19 +10,16 @@
 }
 
 .name {
-
     height: auto;
 }
 
 .name h1 {
     padding-left: 20px;
-    color: rgb(198, 198, 198);
 }
 
 .exp p {
     padding-left: 20px;
     font-size: medium;
-    color: rgb(221, 218, 218);
 }
 
 .div-btn {

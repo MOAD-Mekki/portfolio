@@ -1,9 +1,9 @@
 .nav-div {
     width: 100%;
     height: 70px;
-    border-bottom: solid 2px white;
     display: flex;
     align-items: center;
+    justify-content: baseline;
 }
 
 .title {
