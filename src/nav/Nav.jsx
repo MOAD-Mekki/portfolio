@@ -24,6 +24,7 @@ export default function Nav() {
       </div>
       <div className="nav-btn">
         <button
+          type="button"
           className="toggle-btn"
           onClick={toggleTheme}
           style={{ background: isDark ? "rgb(0, 0, 48)" : "rgb(220,230,240)" }}

@@ -3,7 +3,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .title {
@@ -25,23 +25,52 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 5px;
+  gap: 20px;
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .nav-btn {
   width: auto;
-  height: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 20px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.toggle-btn span {
+.toggle-btn {
   display: inline-block;
   transition: opacity 0.3s ease;
   border: none;
   width: 100%;
-  height: 100%;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.05);
+}
+
+.toggle-btn:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .toggle-btn {
+    width: 100%;
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .toggle-btn {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+    border-radius: 20px;
+  }
 }
