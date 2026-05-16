@@ -1,10 +1,16 @@
 import "./Nav.css";
 import Me from "/public/graphics/Me.JPG";
 import { ThemeContext } from "../theme/ThemeProvider";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 export default function Nav() {
   const { isDark, toggleTheme } = useContext(ThemeContext);
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <div
@@ -14,10 +20,12 @@ export default function Nav() {
       }}
     >
       <div className="nav-cont">
-        <img src={Me} alt="picture" />
+        <img src={Me} alt="picture" data-aos="zoom-in" data-aos-duration="1000"/>
         <h1
           className="title"
           style={{ color: isDark ? "#ffff" : "rgb(0,90,180)" }}
+          data-aos="zoom-in"
+          data-aos-duration="1000"
         >
           Moad Mekki
         </h1>
@@ -26,6 +34,8 @@ export default function Nav() {
         <button
           type="button"
           className="toggle-btn"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
           onClick={toggleTheme}
           style={{ background: isDark ? "rgb(0, 0, 48)" : "rgb(220,230,240)" }}
         >
