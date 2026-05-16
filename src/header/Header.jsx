@@ -19,14 +19,14 @@ export default function Header() {
   return (
     <div className="parent">
       <div className="name">
-        <h1 style={{ color: isDark ? "rgb(198, 198, 198)" : "rgb(0,120,255)" }} data-aos="fade-down" data-aos-duration="1000">
+        <h1 style={{ color: isDark ? "rgb(198, 198, 198)" : "rgb(0,120,255)" }} data-aos="fade-down" data-aos-duration="1500">
           <span style={{ color: isDark ? "white" : "rgb(0,90,180)" }}>
             Moad Ahmed
           </span>{" "}
           Mekki Abdesselam{" "}
         </h1>
       </div>
-      <div className="exp" data-aos="fade-up"  data-aos-duration="1000">
+      <div className="exp" data-aos="fade-up"  data-aos-duration="1800">
         <p style={{ color: isDark ? "rgb(221, 218, 218)" : "rgb(50,50,70)" }}>
           Junior Datacom Engineer with HCIA‑Datacom certification and hands‑on
           experience using Huawei eNSP. Strong foundation in network

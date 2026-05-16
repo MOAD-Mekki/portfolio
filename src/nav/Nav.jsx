@@ -25,7 +25,7 @@ export default function Nav() {
           className="title"
           style={{ color: isDark ? "#ffff" : "rgb(0,90,180)" }}
           data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos-duration="1500"
         >
           Moad Mekki
         </h1>
@@ -34,8 +34,8 @@ export default function Nav() {
         <button
           type="button"
           className="toggle-btn"
-          data-aos="zoom-in"
-          data-aos-duration="1000"
+          data-aos="fade-left"
+          data-aos-duration="2000"
           onClick={toggleTheme}
           style={{ background: isDark ? "rgb(0, 0, 48)" : "rgb(220,230,240)" }}
         >
