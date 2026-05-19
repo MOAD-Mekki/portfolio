@@ -75,3 +75,7 @@
 .first-cont .l-cont {
   width: fit-content;
 }
+
+.educ-cont{
+  overflow-x: hidden;
+}
